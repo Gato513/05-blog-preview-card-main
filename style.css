@@ -1,0 +1,91 @@
+/*! Reseteo de márgenes y rellenos globales */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* Asegura que el padding y el border se incluyan en el ancho y alto de los elementos */
+}
+
+/*! Estilos globales para el cuerpo */
+body {
+	font-family: "Figtree", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 16px;
+}
+
+/*! Estilo del contenedor principal */
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: hsl(47, 88%, 63%);
+}
+
+/*! Estilo para títulos h1 */
+h1 {
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+
+/*! Estilos de la ilustración */
+#illustration-container {
+	width: 100%;
+	border-radius: 1rem;
+	/* outline: 1px solid black;  Si no se necesita el borde, se puede eliminar esta línea */
+}
+
+/*! Estilo para el botón de aprendizaje */
+#learning-button {
+	padding: 0.4rem 0.8rem;
+	background-color: hsl(47, 88%, 63%);
+	border: none;
+	border-radius: 0.3rem;
+	font-weight: 800;
+	cursor: pointer; /* Agrega un cursor de puntero para el botón */
+}
+
+/*! Estilo para las tarjetas */
+#card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+	width: 22.5rem;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(0, 0%, 7%);
+}
+
+/*! Estilo para la descripción del ítem */
+.item-description {
+	color: hsl(0, 0%, 42%);
+}
+
+/*! Estilo para la sección de información */
+#information-section {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*! Estilo para la información del editor */
+#publisher-information {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-weight: 800;
+}
+
+/*! Estilo para las imágenes dentro de la información del editor */
+#publisher-information img {
+	height: 2rem;
+}
+
+/*! Estilo para la fecha de publicación */
+.publication-date {
+	color: hsl(0, 0%, 42%);
+}
