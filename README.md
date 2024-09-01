@@ -1,6 +1,6 @@
 ### Links
 
--   Live Site URL: [Live Site](https://gato513.github.io/blog-preview-card-main/)
+- [Live Site URL](https://gato513.github.io/blog-preview-card-main/)
 
 ## My process
 
