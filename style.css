@@ -55,6 +55,7 @@ h1 {
 	width: 22.5rem;
 	padding: 1.5rem;
 	border-radius: 1rem;
+	box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
 	background-color: hsl(0, 0%, 100%);
 	color: hsl(0, 0%, 7%);
 }
@@ -82,10 +83,11 @@ h1 {
 
 /*! Estilo para las imágenes dentro de la información del editor */
 #publisher-information img {
-	height: 2rem;
+	height: 2.4rem;
 }
 
 /*! Estilo para la fecha de publicación */
 .publication-date {
 	color: hsl(0, 0%, 42%);
+	font-weight: 800;
 }
